@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>LeaderClasses</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link href="images/favicon.ico" rel="shortcut icon"/>
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/login.css">
+      <link rel="stylesheet" href="css/signup.css">
+      <link rel="stylesheet" href="css/blog.css">
+      
+
+      
+      
+  </head>
+  <body onload="document.getElementById('id04').style.display='block'" style="width:auto;">
+<div style="background-color: bisque"><marquee width="100%" direction="left" height="50px">
+    <font color='black' size='5'>Wash your hands frequently, Maintain social distancing and Avoid touching eyes, nose and mouth. Stay safe from the Deadly Corona virus. For more help visit <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=2ahUKEwiXl6XenrPoAhXE4XMBHUn3AmcQFjADegQIAxAB&url=https%3A%2F%2Fmygov.in%2Fcovid-19%2F&usg=AOvVaw1enbvKyQND9_If13gqFjpJ"><strong>corona helpline.</strong></a></font>
+</marquee></div>
+
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" >
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="images/login.jpg" alt="Avatar" class="avatar"> 
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+        <button class="btn btn-primary px-4 py-3 mt-3"><strong><font size='5'>Login</font></strong></button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="btn btn-primary px-4 py-3 mt-3"><strong><font size='5'>Cancel</font></strong></button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+<div id="id02" class="modal">
+  <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <img src="images/signup.jpg" alt="Avatar" class="avatar"> 
+    <form class="modal-content" >
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button class="btn btn-primary px-4 py-3 mt-3"><strong><font size='5'>Sign Up</font></strong></button>
+          <button type="button" onclick="document.getElementById('id02').style.display='none'" class="btn btn-primary px-4 py-3 mt-3"><strong><font size='5'>Cancel</font></strong></button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+      
+      
+      
+      <div id="id03" class="modal">
+  <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" >
+    <div class="container">    
+        <p align='center'><img src="images/success.jpg" height="100px" width="100px" style="align: middle"><strong><font size='8'>Subscribed</font></strong></p> 
+      
+          <button type="button" onclick="document.getElementById('id03').style.display='none'" class="btn btn-primary px-4 py-3 mt-3"><strong><font size='3'>Close</font></strong></button>
+      </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id03');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+      
+      
+      
+      <div id="id04" class="modal">
+  <span onclick="document.getElementById('id04').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" >
+    <div class="container">
+      <h1><i>Welcome to LeaderClasses!!</i></h1>
+        <P><font size='5'><strong>Learn the critical leadership skills that mid- to senior-level managers need to succeed. Unlock your leadership potential through learning to lead yourself, lead others, and lead within a system.</strong></font></P>
+     
+          <button type="button" onclick="document.getElementById('id04').style.display='none'" class="btn btn-primary px-4 py-3 mt-3"><strong><font size='5'>Got it &nbsp;<img src="images/success.jpg" height="50px" width="50px" style="align-self: auto"></font></strong></button>
+      </div>
+    
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id04');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+
+      
+      <div id="id05" class="modal">
+  
+  <form class="modal-content animate" >
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id05').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="images/login.jpg" alt="Avatar" class="avatar"> 
+    </div>
+
+    <div class="container">
+      <p><b><font size='8'>Blah!    Blah!      Blah!       Blah!</font></b></p>
+     
+       <button type="button" onclick="document.getElementById('id05').style.display='none'" class="btn btn-primary px-4 py-3 mt-3"><strong><font size='5'>Agree</font></strong></button>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id05');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+      
+
+	  <nav class="navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container d-flex align-items-center">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav mr-auto">
+	        	<li class="nav-item active"><a href="index.html" class="nav-link"><strong><font size='4'>Home</font></strong></a></li>
+	        	<li class="nav-item"><a href="https://www.leaderclasses.com/about-us" class="nav-link"><strong><font size='4'>About</font></strong></a></li>
+                        <li class="nav-item"><a href="https://www.leaderclasses.com/careers" class="nav-link"><strong><font size='4'>Careers</font></strong></a></li>
+                        <li class="nav-item"><a href="https://www.leaderclasses.com/summits/career-advancement-leadership-development-summit" class="nav-link"><strong><font size='4'>SUMMITS - <i>"Offline, extremely affordable, High Impact, One Day LeaderClasses Career Advancement & Leadership Development Summits held at multiple cities in India"</i></font></strong></a></li>
+                        <li class="nav-item"><a href="https://www.leaderclasses.com/scholarships/career-advancement-leadership-development-scholarships" class="nav-link"><strong><font size='4'>STUDENT SCHOLARSHIPS</font></strong></a></li>
+                        <li class="nav-item"><a href="https://www.leaderclasses.com/" class="nav-link"><strong><font size='4'>Connect with LC</font></strong></a></li>
+                        <li class="nav-item"><a href="" class="nav-link"><strong><font size='4'>FAQ</font></strong></a></li>
+	          <li class="nav-item"><a href="" class="nav-link"><strong><font size='4'>Contact</font></strong></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+           <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container d-flex align-items-center">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+	      <form action="#" class="searchform order-lg-last">
+          <div class="form-group d-flex">
+            <input type="text" class="form-control pl-3" placeholder="Search">
+            <button type="submit" placeholder="" class="form-control search"><span class="ion-ios-search"></span></button>
+          </div>
+      
+         </form>
+	</div>
+	  </nav>
+    <!-- END nav -->
+    
+    <section class="home-slider owl-carousel">
+      <div class="slider-item" style="background-image:url(images/bg.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
+          <div class="ftco-animate">
+            <span class="subheading"><font size='5'>NAMASKAR,</font></span>
+              <h1 class="mb-4" ><font color="white">Welcome to  LeaderClasses</font></h1>
+            <h3 class="mb-4"><font color="white"><i>-We bring out your hidden Talent and accompany you in each and every milestone of your growth</i></font></h3>
+              <p><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="btn btn-primary px-4 py-3 mt-3"><strong><font size='4'>Login</font></strong></button>
+ &ensp;
+               <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;" class="btn btn-primary px-4 py-3 mt-3"><strong><font size='4'>Sign Up</font></strong></button></p>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="slider-item" style="background-image:url(images/bg_1.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
+          <div class=" ftco-animate">
+          	<span class="subheading">Today's Talent, Tommorow's Success</span>
+            <h1 class=""><font color="white">Follow us and convert yourself into a Leader</font></h1>
+            <h3 class="mb-4"><font color="white"><i>-Tap your hidden Leadership Talents.</i></font></h3> 
+              <p><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="btn btn-primary px-4 py-3 mt-3"><strong><font size='4'>Login</font></strong></button>
+ &ensp;
+               <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;" class="btn btn-primary px-4 py-3 mt-3"><strong><font size='4'>Sign Up</font></strong></button></p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+<hr>
+      <div align="center" style="border:1px solid blue ;background-color: burlywood; font-family: fantasy; padding: 100px">
+          <h2><br><font size='7'><strong>Leader Classes</strong> <i>harnesses the world's best Career Advancement &amp; Leadership Development resources,helping you gain Expert Knowledge,&nbsp;Practical Guidance &amp; Actionable Insights from Extraordinary Leaders &amp; World Class Institutions through Specialized,&nbsp; Affordable,&nbsp;Online &amp; Offline Programs custom crafted to Accelerate your Career  Business Success while transforming you into a better &amp; more effective Leader.</i></font></h2>
+      
+      <div>
+         <a href="https://www.leaderclasses.com/summits/career-advancement-leadership-development-summit"><img src="images/LC.png"></a> 
+          
+          
+          
+          </div>
+      
+      
+      
+      
+      
+      
+      
+      </div>
+		
+		
+		<hr>
+      <hr>
+		<section class="ftco-counter" id="section-counter">
+    	 <div class="text-center heading-section ftco-animate">
+            <hr><hr><h2 class="mb-4"><p>What Participants Say About Leadership Development Program (LDP)®:</p></h2>
+            
+          </div>
+            <div class="container">
+    		<div class="row d-md-flex align-items-center justify-content-center">
+    			<div class="wrapper">
+    				<div class="row d-md-flex align-items-center">
+		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18">
+		            	<div class="icon"><span class="flaticon-doctor"></span></div>
+		              <div class="text">
+		                <font size='6'><strong class="number" data-number="99">0</strong> &#37;</font>
+		                <span><font color="red">would recommend this program to a colleague</font></span>
+		              </div>
+		            </div>
+		          </div>
+		         <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18">
+		            	<div class="icon"><span class="flaticon-doctor"></span></div>
+		              <div class="text">
+                          <strong class="number" data-number="90">0</strong> <font size='6'>&#37;</font>;
+		                <span><font color="red">say they are better prepared for future responsibilities</font></span>
+		              </div>
+		            </div>
+		          </div>
+
+
+
+
+
+		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18">
+		            	<div class="icon"><span class="flaticon-doctor"></span></div>
+		              <div class="text">
+                          <strong class="number" data-number="95">0</strong> <font size='6'>&#37;</font>
+		                <span><font color="red">say this program was worth the time and effort</font></span>
+		              </div>
+		            </div>
+		          </div>
+		         
+
+	          </div>
+          </div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section ftco-consult ftco-no-pt ftco-no-pb" style="background-image: url(images/bggg.png);" data-stellar-background-ratio="0.5">
+    	<div id="WCAContainer" class="WCA_wrapper">
+
+<h2 align='center'><strong><font size='6'></font>Let's Get Started</strong></h2>
+
+<form method="post"  name="LDPMoreInfo">
+
+<noscript><p class="error"><strong>To submit the form, JavaScript must be enabled.</strong></p></noscript>
+
+<div class="form_body">
+
+<ul class="form_fields">
+
+<li class="left_half float-label">
+<div class="input_container"><label for="contact_first_name">First Name:<span class="required">*</span></label>
+<input id="contact_first_name" class="medium" name="contact_first_name" title="Enter your first name here." tabindex="1" type="text" aria-required="true" placeholder="First Name:*" required="" value="Leader"></div>
+</li>
+
+<li class="right_half float-label">
+<div class="input_container"><label for="contact_last_name">Last Name:<span class="required">*</span></label>
+<input id="contact_last_name" class="medium" name="contact_last_name" title="Enter your last name here." tabindex="2" type="text" aria-required="true" placeholder="Last Name:*" required="" value=""></div>
+</li>
+
+<li class="left_half float-label">
+<div class="input_container"><label for="Email">Email:<span class="required">*</span></label>
+<input id="Email" class="medium" name="Email" tabindex="3" title="Enter your valid email address here." type="text" aria-required="true" placeholder="Email:*" required="" value=""></div>
+</li>
+
+<li class="right_half float-label">
+<div class="input_container">
+<label for="contact_phone">Phone:</label>
+<input id="contact_phone" class="medium" name="contact_phone" title="Enter your phone number here." tabindex="4" type="text" placeholder="Phone:" value=""></div>
+</li>
+
+<li class="left_half float-label">
+<div class="input_container"><label for="contact_country">Country:<span class="required">*</span></label>
+<select name="contact_country" id="contact_country" title="Select your country." class="medium watermark" tabindex="5" aria-required="true" required=""><option value="" selected="">Country:*</option><option data-phonecode="+1" value="UNITED STATES">UNITED STATES</option><option data-phonecode="+93" value="AFGHANISTAN">AFGHANISTAN</option><option data-phonecode="+355" value="ALBANIA">ALBANIA</option><option data-phonecode="+213" value="ALGERIA">ALGERIA</option><option data-phonecode="+1684" value="AMERICAN SAMOA (U.S. POSSESSION)">AMERICAN SAMOA (U.S. POSSESSION)</option><option data-phonecode="+376" value="ANDORRA">ANDORRA</option><option data-phonecode="+244" value="ANGOLA">ANGOLA</option><option data-phonecode="+1264" value="ANGUILLA">ANGUILLA</option><option data-phonecode="+1268" value="ANTIGUA AND BARBUDA">ANTIGUA AND BARBUDA</option><option data-phonecode="+54" value="ARGENTINA">ARGENTINA</option><option data-phonecode="+374" value="ARMENIA">ARMENIA</option><option data-phonecode="+297" value="ARUBA">ARUBA</option><option data-phonecode="+61" value="AUSTRALIA">AUSTRALIA</option><option data-phonecode="+43" value="AUSTRIA">AUSTRIA</option><option data-phonecode="+994" value="AZERBAIJAN">AZERBAIJAN</option><option data-phonecode="+1242" value="BAHAMAS">BAHAMAS</option><option data-phonecode="+973" value="BAHRAIN">BAHRAIN</option><option data-phonecode="+880" value="BANGLADESH">BANGLADESH</option><option data-phonecode="+1246" value="BARBADOS">BARBADOS</option><option data-phonecode="+375" value="BELARUS">BELARUS</option><option data-phonecode="+32" value="BELGIUM">BELGIUM</option><option data-phonecode="+501" value="BELIZE">BELIZE</option><option data-phonecode="+229" value="BENIN">BENIN</option><option data-phonecode="+1441" value="BERMUDA">BERMUDA</option><option data-phonecode="+975" value="BHUTAN">BHUTAN</option><option data-phonecode="+591" value="BOLIVIA">BOLIVIA</option><option data-phonecode="+387" value="BOSNIA–HERZEGOVINA">BOSNIA-HERZEGOVINA</option><option data-phonecode="+267" value="BOTSWANA">BOTSWANA</option><option data-phonecode="55" value="BOUVET ISLAND">BOUVET ISLAND</option><option data-phonecode="+55" value="BRAZIL">BRAZIL</option><option data-phonecode="+246" value="BRITISH INDIAN OCEAN TERRITORY">BRITISH INDIAN OCEAN TERRITORY</option><option data-phonecode="+673" value="BRUNEI DARUSSALAM">BRUNEI DARUSSALAM</option><option data-phonecode="+359" value="BULGARIA">BULGARIA</option><option data-phonecode="+226" value="BURKINA FASO">BURKINA FASO</option><option data-phonecode="+257" value="BURUNDI">BURUNDI</option><option data-phonecode="+855" value="CAMBODIA">CAMBODIA</option><option data-phonecode="+237" value="CAMEROON">CAMEROON</option><option data-phonecode="+1" value="CANADA">CANADA</option><option data-phonecode="+238" value="CAPE VERDE">CAPE VERDE</option><option data-phonecode="+1345" value="CAYMAN ISLANDS">CAYMAN ISLANDS</option><option data-phonecode="+236" value="CENTRAL AFRICAN REP.">CENTRAL AFRICAN REP.</option><option data-phonecode="+235" value="CHAD">CHAD</option><option data-phonecode="+56" value="CHILE">CHILE</option><option data-phonecode="+86" value="CHINA">CHINA</option><option data-phonecode="+61" value="CHRISTMAS ISLAND">CHRISTMAS ISLAND</option><option data-phonecode="+61" value="COCOS (KEELING) ISLANDS">COCOS (KEELING) ISLANDS</option><option data-phonecode="+57" value="COLOMBIA">COLOMBIA</option><option data-phonecode="+269" value="COMOROS">COMOROS</option><option data-phonecode="+243" value="CONGO, DEMOCRATIC REPUBLIC OF THE">CONGO, DEMOCRATIC REPUBLIC OF THE</option><option data-phonecode="+242" value="CONGO, REPUBLIC OF THE (BRAZZAVILLE)">CONGO, REPUBLIC OF THE (BRAZZAVILLE)</option><option data-phonecode="+682" value="COOK ISLANDS">COOK ISLANDS</option><option data-phonecode="+506" value="COSTA RICA">COSTA RICA</option><option data-phonecode="+225" value="CÔTE D'IVOIRE">CÔTE D'IVOIRE</option><option data-phonecode="+385" value="CROATIA">CROATIA</option><option data-phonecode="+53" value="CUBA">CUBA</option><option data-phonecode="+357" value="CYPRUS">CYPRUS</option><option data-phonecode="+420" value="CZECH REPUBLIC">CZECH REPUBLIC</option><option data-phonecode="+45" value="DENMARK">DENMARK</option><option data-phonecode="+253" value="DJIBOUTI">DJIBOUTI</option><option data-phonecode="+1767" value="DOMINICA">DOMINICA</option><option data-phonecode="+1" value="DOMINICAN REPUBLIC">DOMINICAN REPUBLIC</option><option data-phonecode="+593" value="ECUADOR">ECUADOR</option><option data-phonecode="+20" value="EGYPT">EGYPT</option><option data-phonecode="+503" value="EL SALVADOR">EL SALVADOR</option><option data-phonecode="+240" value="EQUATORIAL GUINEA">EQUATORIAL GUINEA</option><option data-phonecode="+291" value="ERITREA">ERITREA</option><option data-phonecode="+372" value="ESTONIA">ESTONIA</option><option data-phonecode="+251" value="ETHIOPIA">ETHIOPIA</option><option data-phonecode="+500" value="FALKLAND ISLANDS">FALKLAND ISLANDS</option><option data-phonecode="+298" value="FAROE ISLANDS">FAROE ISLANDS</option><option data-phonecode="+679" value="FIJI">FIJI</option><option data-phonecode="+358" value="FINLAND">FINLAND</option><option data-phonecode="+33" value="FRANCE">FRANCE</option><option data-phonecode="+594" value="FRENCH GUIANA">FRENCH GUIANA</option><option data-phonecode="+689" value="FRENCH POLYNESIA">FRENCH POLYNESIA</option><option data-phonecode="262" value="FRENCH SOUTHERN TERRITORIES">FRENCH SOUTHERN TERRITORIES</option><option data-phonecode="+241" value="GABON">GABON</option><option data-phonecode="+220" value="GAMBIA">GAMBIA</option><option data-phonecode="+995" value="GEORGIA, REPUBLIC OF">GEORGIA, REPUBLIC OF</option><option data-phonecode="+49" value="GERMANY">GERMANY</option><option data-phonecode="+233" value="GHANA">GHANA</option><option data-phonecode="+350" value="GIBRALTAR">GIBRALTAR</option><option data-phonecode="+30" value="GREECE">GREECE</option><option data-phonecode="+299" value="GREENLAND">GREENLAND</option><option data-phonecode="+1473" value="GRENADA">GRENADA</option><option data-phonecode="+590" value="GUADELOUPE">GUADELOUPE</option><option data-phonecode="+1671" value="GUAM">GUAM</option><option data-phonecode="+502" value="GUATEMALA">GUATEMALA</option><option data-phonecode="+224" value="GUINEA">GUINEA</option><option data-phonecode="+245" value="GUINEA–BISSAU">GUINEA–BISSAU</option><option data-phonecode="+592" value="GUYANA">GUYANA</option><option data-phonecode="+509" value="HAITI">HAITI</option><option data-phonecode="0" value="HEARD ISLAND AND MCDONALD ISLANDS">HEARD ISLAND AND MCDONALD ISLANDS</option><option data-phonecode="+39" value="HOLY SEE (VATICAN CITY STATE)">HOLY SEE (VATICAN CITY STATE)</option><option data-phonecode="+504" value="HONDURAS">HONDURAS</option><option data-phonecode="+852" value="CHINA (HONG KONG SAR)">HONG KONG SAR</option><option data-phonecode="+36" value="HUNGARY">HUNGARY</option><option data-phonecode="+354" value="ICELAND">ICELAND</option><option data-phonecode="+91" value="INDIA">INDIA</option><option data-phonecode="+62" value="INDONESIA">INDONESIA</option><option data-phonecode="+98" value="IRAN">IRAN</option><option data-phonecode="+964" value="IRAQ">IRAQ</option><option data-phonecode="+353" value="IRELAND">IRELAND</option><option data-phonecode="+44" value="ISLE OF MAN">ISLE OF MAN</option><option data-phonecode="+972" value="ISRAEL">ISRAEL</option><option data-phonecode="+39" value="ITALY">ITALY</option><option data-phonecode="+1" value="JAMAICA">JAMAICA</option><option data-phonecode="+81" value="JAPAN">JAPAN</option><option data-phonecode="+962" value="JORDAN">JORDAN</option><option data-phonecode="+7" value="KAZAKHSTAN">KAZAKHSTAN</option><option data-phonecode="+254" value="KENYA">KENYA</option><option data-phonecode="+686" value="KIRIBATI">KIRIBATI</option><option data-phonecode="+850" value="KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF">KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF</option><option data-phonecode="+82" value="KOREA, REPUBLIC OF">KOREA, REPUBLIC OF</option><option data-phonecode="+965" value="KUWAIT">KUWAIT</option><option data-phonecode="+996" value="KYRGYZSTAN">KYRGYZSTAN</option><option data-phonecode="+856" value="LAOS">LAOS</option><option data-phonecode="+371" value="LATVIA">LATVIA</option><option data-phonecode="+961" value="LEBANON">LEBANON</option><option data-phonecode="+266" value="LESOTHO">LESOTHO</option><option data-phonecode="+231" value="LIBERIA">LIBERIA</option><option data-phonecode="+218" value="LIBYA">LIBYA</option><option data-phonecode="+423" value="LIECHTENSTEIN">LIECHTENSTEIN</option><option data-phonecode="+370" value="LITHUANIA">LITHUANIA</option><option data-phonecode="+352" value="LUXEMBOURG">LUXEMBOURG</option><option data-phonecode="+853" value="CHINA (MACAU SAR)">MACAU SAR</option><option data-phonecode="+389" value="MACEDONIA">MACEDONIA</option><option data-phonecode="+261" value="MADAGASCAR">MADAGASCAR</option><option data-phonecode="+265" value="MALAWI">MALAWI</option><option data-phonecode="+60" value="MALAYSIA">MALAYSIA</option><option data-phonecode="+960" value="MALDIVES">MALDIVES</option><option data-phonecode="+223" value="MALI">MALI</option><option data-phonecode="+356" value="MALTA">MALTA</option><option data-phonecode="+692" value="MARSHALL ISLANDS, REPUBLIC OF THE">MARSHALL ISLANDS, REPUBLIC OF THE</option><option data-phonecode="+596" value="MARTINIQUE">MARTINIQUE</option><option data-phonecode="+222" value="MAURITANIA">MAURITANIA</option><option data-phonecode="+230" value="MAURITIUS">MAURITIUS</option><option data-phonecode="+262" value="MAYOTTE">MAYOTTE</option><option data-phonecode="+52" value="MEXICO">MEXICO</option><option data-phonecode="+691" value="MICRONESIA, FEDERATED STATES OF">MICRONESIA, FEDERATED STATES OF</option><option data-phonecode="+373" value="MOLDOVA">MOLDOVA</option><option data-phonecode="+377" value="MONACO">MONACO</option><option data-phonecode="+976" value="MONGOLIA">MONGOLIA</option><option data-phonecode="+1664" value="MONTSERRAT">MONTSERRAT</option><option data-phonecode="+212" value="MOROCCO">MOROCCO</option><option data-phonecode="+258" value="MOZAMBIQUE">MOZAMBIQUE</option><option data-phonecode="+95" value="MYANMAR">MYANMAR</option><option data-phonecode="+264" value="NAMIBIA">NAMIBIA</option><option data-phonecode="+674" value="NAURU">NAURU</option><option data-phonecode="+977" value="NEPAL">NEPAL</option><option data-phonecode="+31" value="NETHERLANDS">NETHERLANDS</option><option data-phonecode="599" value="NETHERLANDS ANTILLES">NETHERLANDS ANTILLES</option><option data-phonecode="+687" value="NEW CALEDONIA">NEW CALEDONIA</option><option data-phonecode="+64" value="NEW ZEALAND">NEW ZEALAND</option><option data-phonecode="+505" value="NICARAGUA">NICARAGUA</option><option data-phonecode="+227" value="NIGER">NIGER</option><option data-phonecode="+234" value="NIGERIA">NIGERIA</option><option data-phonecode="+683" value="NIUE">NIUE</option><option data-phonecode="+672" value="NORFOLK ISLAND">NORFOLK ISLAND</option><option data-phonecode="+1670" value="NORTHERN MARIANA ISS, COMMONWEALTH OF">NORTHERN MARIANA ISS, COMMONWEALTH OF</option><option data-phonecode="+47" value="NORWAY">NORWAY</option><option data-phonecode="+968" value="OMAN">OMAN</option><option data-phonecode="+92" value="PAKISTAN">PAKISTAN</option><option data-phonecode="+680" value="PALAU">PALAU</option><option data-phonecode="+507" value="PANAMA">PANAMA</option><option data-phonecode="+675" value="PAPUA NEW GUINEA">PAPUA NEW GUINEA</option><option data-phonecode="+595" value="PARAGUAY">PARAGUAY</option><option data-phonecode="+51" value="PERU">PERU</option><option data-phonecode="+63" value="PHILIPPINES">PHILIPPINES</option><option data-phonecode="64" value="PITCAIRN ISLAND">PITCAIRN ISLAND</option><option data-phonecode="+48" value="POLAND">POLAND</option><option data-phonecode="+351" value="PORTUGAL">PORTUGAL</option><option data-phonecode="+1" value="PUERTO RICO">PUERTO RICO</option><option data-phonecode="+974" value="QATAR">QATAR</option><option data-phonecode="+262" value="REUNION">REUNION</option><option data-phonecode="+40" value="ROMANIA">ROMANIA</option><option data-phonecode="+7" value="RUSSIAN FEDERATION">RUSSIAN FEDERATION</option><option data-phonecode="+250" value="RWANDA">RWANDA</option><option data-phonecode="+290" value="SAINT HELENA">SAINT HELENA</option><option data-phonecode="+1869" value="SAINT KITTS AND NEVIS">SAINT KITTS AND NEVIS</option><option data-phonecode="+1758" value="SAINT LUCIA">SAINT LUCIA</option><option data-phonecode="+508" value="SAINT PIERRE AND MIQUELON">SAINT PIERRE AND MIQUELON</option><option data-phonecode="+1784" value="SAINT VINCENT AND THE GRENADINES">SAINT VINCENT AND THE GRENADINES</option><option data-phonecode="+685" value="SAMOA">SAMOA</option><option data-phonecode="+378" value="SAN MARINO">SAN MARINO</option><option data-phonecode="+239" value="SAO TOME AND PRINCIPE">SAO TOME AND PRINCIPE</option><option data-phonecode="+966" value="SAUDI ARABIA">SAUDI ARABIA</option><option data-phonecode="+221" value="SENEGAL">SENEGAL</option><option data-phonecode="+381" value="SERBIA–MONTENEGRO">SERBIA–MONTENEGRO</option><option data-phonecode="+248" value="SEYCHELLES">SEYCHELLES</option><option data-phonecode="+232" value="SIERRA LEONE">SIERRA LEONE</option><option data-phonecode="+65" value="SINGAPORE">SINGAPORE</option><option data-phonecode="+421" value="SLOVAKIA">SLOVAKIA</option><option data-phonecode="+386" value="SLOVENIA">SLOVENIA</option><option data-phonecode="+677" value="SOLOMON ISLANDS">SOLOMON ISLANDS</option><option data-phonecode="+252" value="SOMALIA">SOMALIA</option><option data-phonecode="+27" value="SOUTH AFRICA">SOUTH AFRICA</option><option data-phonecode="995" value="SOUTH GEORGIA AND THE SOUTH SANDWICH ISS">SOUTH GEORGIA AND THE SOUTH SANDWICH ISS</option><option data-phonecode="+34" value="SPAIN">SPAIN</option><option data-phonecode="+94" value="SRI LANKA">SRI LANKA</option><option data-phonecode="+249" value="SUDAN">SUDAN</option><option data-phonecode="+597" value="SURINAME">SURINAME</option><option data-phonecode="+47" value="SVALBARD AND JAN MAYEN">SVALBARD AND JAN MAYEN</option><option data-phonecode="+268" value="SWAZILAND">SWAZILAND</option><option data-phonecode="+46" value="SWEDEN">SWEDEN</option><option data-phonecode="+41" value="SWITZERLAND">SWITZERLAND</option><option data-phonecode="+963" value="SYRIAN ARAB REPUBLIC">SYRIAN ARAB REPUBLIC</option><option data-phonecode="+886" value="CHINA (TAIWAN)">TAIWAN</option><option data-phonecode="+992" value="TAJIKISTAN">TAJIKISTAN</option><option data-phonecode="+255" value="TANZANIA">TANZANIA</option><option data-phonecode="+66" value="THAILAND">THAILAND</option><option data-phonecode="+670" value="TIMOR-LESTE">TIMOR-LESTE</option><option data-phonecode="+228" value="TOGO">TOGO</option><option data-phonecode="+690" value="TOKELAU">TOKELAU</option><option data-phonecode="+676" value="TONGA">TONGA</option><option data-phonecode="+1868" value="TRINIDAD AND TOBAGO">TRINIDAD AND TOBAGO</option><option data-phonecode="+216" value="TUNISIA">TUNISIA</option><option data-phonecode="+90" value="TURKEY">TURKEY</option><option data-phonecode="+993" value="TURKMENISTAN">TURKMENISTAN</option><option data-phonecode="+1649" value="TURKS AND CAICOS ISLANDS">TURKS AND CAICOS ISLANDS</option><option data-phonecode="+688" value="TUVALU">TUVALU</option><option data-phonecode="+256" value="UGANDA">UGANDA</option><option data-phonecode="+380" value="UKRAINE">UKRAINE</option><option data-phonecode="+971" value="UNITED ARAB EMIRATES">UNITED ARAB EMIRATES</option><option data-phonecode="+44" value="UNITED KINGDOM">UNITED KINGDOM</option><option data-phonecode="+1" value="UNITED STATES MINOR OUTLYING ISLANDS">UNITED STATES MINOR OUTLYING ISLANDS</option><option value="UNKNOWN">UNKNOWN</option><option data-phonecode="+958" value="URUGUAY">URUGUAY</option><option data-phonecode="+998" value="UZBEKISTAN">UZBEKISTAN</option><option data-phonecode="+678" value="VANUATU">VANUATU</option><option data-phonecode="+58" value="VENEZUELA">VENEZUELA</option><option data-phonecode="+84" value="VIETNAM">VIETNAM</option><option data-phonecode="+1" value="VIRGIN ISLANDS U.S.">VIRGIN ISLANDS U.S.</option><option data-phonecode="1" value="VIRGIN ISLANDS, BRITISH">VIRGIN ISLANDS, BRITISH</option><option data-phonecode="+681" value="WALLIS AND FUTUNA ISLANDS">WALLIS AND FUTUNA ISLANDS</option><option data-phonecode="+212" value="WESTERN SAHARA">WESTERN SAHARA</option><option data-phonecode="+967" value="YEMEN">YEMEN</option><option data-phonecode="+260" value="ZAMBIA">ZAMBIA</option><option data-phonecode="+263" value="ZIMBABWE">ZIMBABWE</option></select></div>
+</li>
+
+<li class="right_half float-label">
+<div class="input_container"><label for="organization">Company/Organization:<span class="required">*</span></label>
+<input id="organization" class="medium" name="organization" title="Enter your company or organization name here." tabindex="6" type="text" aria-required="true" placeholder="Company/Organization:*" required="" value=""></div>
+</li>
+
+<li class="left_half float-label">
+<div class="input_container"><label for="ccl_level_in_organization">Role in Organization:<span class="required">*</span></label>
+<select name="ccl_level_in_organization" id="ccl_level_in_organization" title="Select your role in your organization." class="medium watermark" tabindex="7" aria-required="true" required=""><option value="" selected="">Role in Organization:*</option><option value="CEO / President">CEO / President</option><option value="CHRO / CLO">CHRO / CLO</option><option value="VP / Executive">VP / Executive</option><option value="Director of HR / L&amp;D / OD">Director of HR / L&amp;D / OD</option><option value="Director">Director</option><option value="Manager">Manager</option><option value="Consultant / Executive Coach">Consultant / Executive Coach</option><option value="Trainer / Facilitator / Teacher">Trainer / Facilitator / Teacher</option><option value="Student / Participant">Student / Participant</option><option value="Other">Other</option></select></div>
+</li>
+
+<li class="right_half float-label">
+<div class="input_container"><label for="organization_role">Role in Selecting Leadership Solutions:<span class="required">*</span></label>
+<select name="organization_role" id="organization_role" title="Select your role in selecting leadership solutions." class="medium watermark" tabindex="8" aria-required="true" required=""><option value="" selected="">Role in Selecting Leadership Solutions:*</option><option value="I am the main decision-maker">I am the main decision-maker</option><option value="I share the decision, along with others">I share the decision, along with others</option><option value="I am researching options for the decision making team">I am researching options for the decision making team</option><option value="I am not involved">I am not involved</option><option value="I am an external/independent consultant">I am an external/independent consultant</option></select>
+</div>
+</li>
+
+
+
+<li class="right_half  float-label">
+<div class="input_container"><label for="ccl_budget">Budget:</label>
+<select name="ccl_budget" id="ccl_budget" title="What is your budget for this?" class="medium watermark" tabindex="10"><option value="" selected="">Budget:</option><option value="$0 - $50,000">$0 - $50,000</option><option value="$50,001 - $100,000">$50,001 - $100,000</option><option value="$100,001 - $150,000">$100,001 - $150,000</option><option value="$150,001 - $200,000">$150,001 - $200,000</option><option value="$200,001 +">$200,001 +</option></select>
+</div>
+</li>
+				
+<li class="left_half float-label">
+<div class="input_container"><label for="ccl_purchase_timeframe">Purchase Timeframe:</label>
+<select name="ccl_purchase_timeframe" id="ccl_purchase_timeframe" title="Select your purchase timeframe." class="medium watermark" tabindex="11"><option value="" selected="">Purchase Timeframe:</option><option value="0 - 3 Months">0 - 3 Months</option><option value="4 - 6 Months">4 - 6 Months</option><option value="7 - 9 Months">7 - 9 Months</option><option value="10 - 12 Months">10 - 12 Months</option><option value="13 Months +">13 Months +</option></select>
+</div>
+</li>
+
+<li class="full">
+<div class="input_container">
+<p class="center">By submitting this form, you acknowledge that LC® will use this information to contact you.</p>
+</div>
+</li>
+
+</ul>
+
+<div class="form_footer top_label">
+    <button type="button" class='btn btn-primary px-4 py-3 mt-3'  value="Contact Me"  tabindex="12">Contact me</button>
+<p class="notice paddingTop"><em>At LC, we care about your privacy. The information you share with us will only be used to better service you and in accordance with your consent. For more information, please refer to our <button onclick="document.getElementById('id05').style.display='block'" style="width:auto;" class=""><strong><font size='4'>Privacy Policy</font></strong></button>.</em></p>
+</div>
+
+<input type="hidden" name="consent_date_stamp" id="consent_date_stamp" value="3/24/2020">
+<input type="hidden" name="consent" id="consent" data="Yes" value="Yes">
+<input type="hidden" name="global_subscription" id="global_subscription" data="Yes" value="Yes">
+<input type="hidden" name="ccl_country_code" id="ccl_country_code" value="">
+<input type="hidden" name="ccl_lead_source" id="ccl_lead_source" data="Web" value="Web">
+<input type="hidden" name="campaign_track" id="campaign_track" data="ldp-more-info" value="ldp-more-info">
+<input type="hidden" name="interest_code" id="interest_code" data="FORMOECONTACTLDP" value="FORMOECONTACTLDP">
+<input type="hidden" name="utm_campaign" id="utmCampaignHidden" value="">
+<input type="hidden" name="utm_source" id="utmSourceHidden" value="">
+<input type="hidden" name="utm_medium" id="utmMediumHidden" value="">
+<input type="hidden" name="formSourceName" value="StandardForm">
+
+<!-- DO NOT REMOVE HIDDEN FIELD sp_exp -->
+<input type="hidden" name="sp_exp" value="yes">
+
+</div>
+</form>
+</div>
+    </section>		
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-6 col-lg-3">
+            <div class="ftco-footer-widget mb-5">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Location : xxxxxxxxx</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">contact no : xxxxxxxxxx</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">Email-id : xxxxxxxxx@xxxx.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3" >
+            <div class="ftco-footer-widget mb-5">
+              <h2 class="ftco-heading-2">Recent Blog</h2>
+              <div class="block-21 mb-4 d-flex">
+                <button class="" onclick="openForm()" style="background-image: url(images/image_1.jpg);"></button>
+                  <div class="form-popup" id="myForm">
+  <form class="form-container">
+    <p><b>Sorry!!!!! Blog is currently unavailable.</b></p>
+   
+    <button type="button" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+                <div class="text">
+                  <h3 class="heading"><a href="#"></a></h3>
+                  <div class="meta">
+                    <div><a href=""><span class="icon-calendar"></span> June 27, 2019</a></div>
+                    <div><a href=""><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                      
+
+                      
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="ftco-footer-widget mb-5 ml-md-4">
+              <h2 class="ftco-heading-2">Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="https://www.leaderclasses.com/about-us"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
+                <li><a href="https://www.leaderclasses.com/careers"><span class="ion-ios-arrow-round-forward mr-2"></span>Careers</a></li>
+                <li><a href="https://www.leaderclasses.com/summits/career-advancement-leadership-development-summit"><span class="ion-ios-arrow-round-forward mr-2"></span>SUMMITS</a></li>
+                <li><a href="https://www.leaderclasses.com/scholarships/career-advancement-leadership-development-scholarships"><span class="ion-ios-arrow-round-forward mr-2"></span>STUDENT SCHOLARSHIPS</a></li>
+                <li><a href="https://www.leaderclasses.com/leaderclasses-contact-form"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="ftco-footer-widget mb-5">
+            	<h2 class="ftco-heading-2">Subscribe Us!</h2>
+              <form action="#" class="subscribe-form">
+                <div class="form-group">
+                  <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address" required>
+                  <input type="button" value="Subscribe" onclick="document.getElementById('id03').style.display='block'" class="form-control submit px-3">
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
+              </form>
+            </div>
+            <div class="ftco-footer-widget mb-5">
+            	<h2 class="ftco-heading-2 mb-0">Connect With Us</h2>
+            	<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                <li class="ftco-animate"><a href="https://twitter.com/leaderclasses"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2FLeaderClasses-105817960762777%2F%3Fmodal%3Dadmin_todo_tour&amp;src=sdkpreparse"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.instagram.com/leaderclassesofficial"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+     
+<script>
+function myFunction() {
+  var x = document.getElementById("ftco-navbar");
+    x.style.display = "none";
+}
+</script>
+
+  </body>
+</html>
